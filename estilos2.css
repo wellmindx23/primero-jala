@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+header{
+
+    height: 55vh;
+    background-image: linear-gradient(to top, rgb(161, 140, 209, 0.5) 0%, rgba(251, 195, 235, 0.5) 100%),url(tepetl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logo {
+    float: left;
+    width: 75px;
+    clear: both;
+    margin: 10px;
+}
+
+.menu-navegacion li{
+    list-style: none;
+    
+}
+
+nav li a {
+     font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+     margin: 0px;
+     padding: 0px;
+     background-color:black;
+     color:#ffff;
+     text-decoration:none;
+     padding: 10px 12px;
+     float: left;
+     font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+     font-size: 17px;
+}
+
+
+.contenedor-cabeza{
+    float: left;
+    
+}
+
+
+
+
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
